@@ -10,11 +10,28 @@ public class trailing_zeros {
         while(i<=num){
             int t=i;
             while(t>=5){
-               t= t/5;
-               count+=1;
+                if(t%5==0){
+                    t= t/5;
+                    count+=1;
+                }
+                else {break;}
             }
             i+=5;
         }
         System.out.println("Trailing zeros is "+count);
+    }
+}
+///////
+// method 2
+package practice;
+import java.util.*;
+public class nw {
+    public static void main(String[] args) {
+        Scanner s = new Scanner( System.in);
+        int n =s.nextInt();int count=0;
+        for(int i =5; n/i >=1;i*=5){
+            count+=n/i;
+        }
+        System.out.println(count);
     }
 }
