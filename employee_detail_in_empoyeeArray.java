@@ -31,7 +31,7 @@ class employee{
         this.designation= designation;
     }
 }
-public class ques {
+class ques {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Total employee:");

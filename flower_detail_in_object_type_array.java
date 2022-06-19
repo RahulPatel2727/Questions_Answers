@@ -30,7 +30,7 @@ class flower{
 //        System.out.print(name+" "+noOfPetals+" "+price);
 //    }
 }
-public class flowers_class {
+class flowers_class {
     public static void main(String[] args) {
         flower arr[] = new flower[2];
         Scanner sc = new Scanner(System.in);

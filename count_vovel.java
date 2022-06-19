@@ -1,5 +1,5 @@
 import java.util.*;
-public class vovel_count {
+class vovel_count {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string");

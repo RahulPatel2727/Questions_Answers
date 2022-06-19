@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class Array_Menu {
+class Array_Menu33 {
     int arr[];
-    public Array_Menu(){
+    public Array_Menu33(){
         arr=new int[10];
         for(int i =0; i<arr.length;i++){
             arr[i]=Integer.MIN_VALUE;
@@ -143,7 +143,7 @@ public class Array_Menu {
 
     public static void main(String[] args) {
         System.out.println("Lets play...."+"\n");
-        Array_Menu obj = new Array_Menu();
+        Array_Menu22 obj = new Array_Menu22();
         System.out.println("If you want to INSERT  press -                  1");
         System.out.println("If you want to DELETE  a value press -          2");
         System.out.println("If you want to UPDATE any index value press -   3");

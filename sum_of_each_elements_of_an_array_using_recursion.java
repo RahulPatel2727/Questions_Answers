@@ -13,7 +13,7 @@ Sample Output 2 :
 7
  */
 import java.util.Scanner;
-public class sum_of_all_element_of_an_array_using_recursion {
+class sum_of_all_element_of_an_array_using_recursion {
     int arr[];
     public long sum(int arr[],int s){
         if(s==0){return arr[s];}

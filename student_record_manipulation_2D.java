@@ -9,7 +9,7 @@ obtained by 4 students in 5 subjects. Now write a program to...
 import java.util.HashMap;
 import java.util.*;
 import java.util.Scanner;
-public class program_for_student_details_in_2D {
+class program_for_student_details_in_2D {
     public static void main(String[] args) {
         program_for_student_details_in_2D obj = new program_for_student_details_in_2D();
         obj.averageMarksInEachSubject();//a

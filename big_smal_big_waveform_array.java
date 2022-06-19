@@ -4,7 +4,7 @@ output  [2 1 6 4 77 8]
 */
 
 import java.util.*;
-public class greater_small_gerater {
+ class greater_small_gerater {
     public static void main(String[] args) {
         Scanner s = new Scanner (System.in);
         System.out.println("give the size");

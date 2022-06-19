@@ -5,7 +5,7 @@ two-dimensional array and the other that stores all even elements of the array.
 Note:-  Resulting arrays will be of ArrayList type
  */
 import java.util.*;
-public class twoD {
+class twoD {
     int inputArr[][];
     int M,N;
     twoD() {

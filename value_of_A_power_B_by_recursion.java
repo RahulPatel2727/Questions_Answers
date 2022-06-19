@@ -12,7 +12,7 @@ Sample Output 1 :
 81
 */
 import java.util.*;
-public class findMultipleOf_A_to_B_times {
+ class findMultipleOf_A_to_B_times {
     public long power(long num1,long num2){
         if(num2 == 0){return 1;}
         else if(num1 == 0){return 0;}
