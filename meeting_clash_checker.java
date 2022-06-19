@@ -64,7 +64,7 @@ class timeInterval{
 }
 
 
-public class newQ2 {
+class newQ2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("total schedule for today:");

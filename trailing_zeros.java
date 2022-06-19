@@ -23,9 +23,9 @@ public class trailing_zeros {
 }
 ///////
 // method 2
-package practice;
-import java.util.*;
-public class nw {
+//package practice;
+//import java.util.*;
+ class nw {
     public static void main(String[] args) {
         Scanner s = new Scanner( System.in);
         int n =s.nextInt();int count=0;

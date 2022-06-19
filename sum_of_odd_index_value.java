@@ -1,6 +1,6 @@
 //package Calss_Questions;
 import java.util.Scanner;
-public class find_odd_index_sum {
+ class find_odd_index_sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.printf("Enter the size of the array:");

@@ -8,7 +8,7 @@ class Company{
         this.item3= item3;
     }
 }
-public class company_Sales_details {
+ class company_Sales_details {
     Company emp_sales[];
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

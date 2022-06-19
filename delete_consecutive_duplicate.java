@@ -10,7 +10,7 @@ Output
 10 30 40 50 9 45
  */
 import java.util.*;
-public class remove_consecutive_duplicates {
+class remove_consecutive_duplicates {
     public static void main(String[] args) {
 //        int arr[] = {10 , 10 , 20 , 30 , 30 , 30 , 10};
         System.out.println("Size");
