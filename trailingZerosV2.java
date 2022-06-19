@@ -15,4 +15,5 @@ public class trailingZerosV2 {
         return fact/d + trailingZero(fact,d*5);
     }
 
+
 }
