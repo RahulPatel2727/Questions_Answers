@@ -2,8 +2,11 @@ import java.security.spec.RSAOtherPrimeInfo;
 
 public class powerOf {
     public static void main(String[] args) {
-        int a = 4,b=3;
-        if(b==0) System.out.println(1);
+        int a = 4,b=11;
+        if(b==0) {
+            System.out.println(1);
+            return;
+        }
         System.out.println(new powerOf().pow(a,b-1,a));
         System.out.println(new powerOf().powV2(a,b));
         System.out.println(new powerOf().powRec(a,b));
