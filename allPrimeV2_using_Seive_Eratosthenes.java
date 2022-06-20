@@ -19,6 +19,20 @@ public class allPrimeV2_using_Seive_Eratosthenes {
             }
         }
 
+//        new optimal code
+        for(int i=2;i*i<=n;i++){
+            if(!fact[i]){
+                for(int j=2*i;j<=n;j+=i){
+                    fact[j]=true;
+                }
+            }
+        }
+        for(int i=2;i<=n;i++){
+            if(!fact[i]){
+                System.out.print(i+" ");
+            }
+        }
+
         //checking time taken by the method
         TimeUnit.SECONDS.sleep(2);
         long e=System.nanoTime();
