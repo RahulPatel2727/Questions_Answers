@@ -8,6 +8,13 @@ public class GCDv3 {
         if(a==b){
             return a;
         }
-        return gcd(Math.max(a,b)-Math.min(a,b),Math.min(a,b));
+        if(a>b){
+            return gcd(a-b,b);
+        }
+        else{
+            return gcd(b-a,a);
+        }
+//        Or we can also use java library
+//        return gcd(Math.max(a,b)-Math.min(a,b),Math.min(a,b));
     }
 }
