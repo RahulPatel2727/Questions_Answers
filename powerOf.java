@@ -6,6 +6,8 @@ public class powerOf {
         if(b==0) System.out.println(1);
         System.out.println(new powerOf().pow(a,b-1,a));
         System.out.println(new powerOf().powV2(a,b));
+        System.out.println(new powerOf().powRec(a,b));
+        System.out.println(new powerOf().binaryPow(a,b));
     }
 //naive method
     public int pow(int a,int b,int it){
@@ -32,5 +34,16 @@ public class powerOf {
             return temp;
         else
             return temp*a;
+    }
+//    most efficient solution
+    public int binaryPow(int a,int b){
+        int res=1;
+        while(b>0){
+            if(b%2!=0)
+                res = res*a;
+            a*=a;
+            b/=2;
+        }
+        return res;
     }
 }
