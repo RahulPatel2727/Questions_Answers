@@ -5,6 +5,7 @@ public class allPrimeV2_using_Seive_Eratosthenes {
         long s=System.nanoTime();
         int n=11;
         boolean [] fact = new boolean[n+1];
+//naive method
         //divisor always appears in pairs like when we find factorial
         for(int i=2;i*i<=n;i++){
             if(!fact[i]){
@@ -20,7 +21,7 @@ public class allPrimeV2_using_Seive_Eratosthenes {
         }
         System.out.println();
 
-//        new optimal code
+//new optimal code
         fact=new boolean[n+1];
         for(int i=2;i*i<=n;i++){
             if(!fact[i]){
@@ -36,7 +37,7 @@ public class allPrimeV2_using_Seive_Eratosthenes {
         }
         System.out.println();
 
-// most optimal
+//most ofdptimal
         fact=new boolean[n+1];
         for(int i=2;i<=n;i++){
             if(!fact[i]){
@@ -46,6 +47,7 @@ public class allPrimeV2_using_Seive_Eratosthenes {
                 }
             }
         }
+
         //checking time taken by the method
         TimeUnit.SECONDS.sleep(2);
         long e=System.nanoTime();
