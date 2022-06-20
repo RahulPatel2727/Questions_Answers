@@ -10,5 +10,6 @@ public class LCMv1 {
             return b;
         }
         return lcm(a,b*i,i+1);
+
     }
 }
