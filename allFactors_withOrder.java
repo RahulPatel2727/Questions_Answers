@@ -1,6 +1,6 @@
 public class allFactors_withOrder {
     public static void main(String[] args) {
-        int n = 25;
+        int n = 49;
         int i;
         for(i=1;i*i<=n;i++) {
             if (n % i == 0) {
