@@ -1,7 +1,7 @@
 public class primeMostEfficient {
     public static void main(String[] args) {
         long start=System.nanoTime();
-        int n=721;
+        int n=91;
         System.out.println(new primeMostEfficient().prime(n));
         long end = System.nanoTime();
         System.out.println("Nano second "+(end - start));
