@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 public class allPrimeV2_using_Seive_Eratosthenes {
@@ -6,7 +5,7 @@ public class allPrimeV2_using_Seive_Eratosthenes {
         long s=System.nanoTime();
         int n=11;
         boolean [] fact = new boolean[n+1];
-        //
+        //divisor always appears in pairs like when we find factorial
         for(int i=2;i*i<=n;i++){
             if(!fact[i]){
                 for(int j=2*i;j<=n;j+=i){
