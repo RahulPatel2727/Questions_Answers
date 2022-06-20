@@ -1,10 +1,10 @@
+import java.util.concurrent.TimeUnit;
+
 public class test {
-    public static void main(String[] args) {
-        int n=2483;
-        for(int i=2;i<=n;i++){
-            if(n%i==0){
-                System.out.print(i+" ");
-            }
-        }
+    public static void main(String[] args) throws  InterruptedException{
+        long s=System.nanoTime();
+        TimeUnit.SECONDS.sleep(2);
+        long e = System.nanoTime();
+        System.out.println((e-s)/1000000000);
     }
 }
