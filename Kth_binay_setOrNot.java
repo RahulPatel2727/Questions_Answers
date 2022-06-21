@@ -2,6 +2,7 @@ public class Kth_binay_setOrNot {
     public static void main(String[] args) {
         int a=15274,k=14;  // k always less than the max bit in a no or in a range 32/64...
         System.out.println(new Kth_binay_setOrNot().Kth(a,k));
+        System.out.println(new Kth_binay_setOrNot().KthV1(a,k));
     }
 //    naive solution
     public boolean Kth(int a, int k){
@@ -15,5 +16,11 @@ public class Kth_binay_setOrNot {
         }
         return false;
     }
-
+//    efficient using left shift
+    public boolean KthV1(int a, int k){
+        if((a & 1<<(k-1))==0)
+            return false;
+        else
+            return true;
+    }
 }
