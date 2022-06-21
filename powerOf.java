@@ -1,5 +1,3 @@
-import java.security.spec.RSAOtherPrimeInfo;
-
 public class powerOf {
     public static void main(String[] args) {
         int a = 4,b=11;
@@ -17,7 +15,7 @@ public class powerOf {
         if(b==0) return a;
         return pow(a*it,b-1,it);
     }
-//second method better than naive
+//second method
     public int powV2(int a,int b){
         int temp =(int) Math.pow(a,b/2);
         temp*=temp;
@@ -45,7 +43,7 @@ public class powerOf {
             if(b%2!=0)
                 res = res*a;
             a*=a;
-            b/=2;
+            b=b>>1; // or you can write b=b/2;
         }
         return res;
     }
