@@ -9,8 +9,10 @@ public class countSetBit {
         while(a!=0){
 //            if(a%2==1)
 //          OR
-            if((a & 1)!=0)
-                count++;
+//            if((a & 1)!=0)
+//                count++;
+//            or
+          count=count+(a&1);
 
 //            a/=2;
             // or
