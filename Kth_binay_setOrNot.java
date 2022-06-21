@@ -11,6 +11,7 @@ public class Kth_binay_setOrNot {
             }
             a=a/2;
             k--;
+
         }
         return false;
     }
