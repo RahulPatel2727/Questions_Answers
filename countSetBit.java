@@ -7,9 +7,11 @@ public class countSetBit {
     public int setBit(int a){
         int count = 0;
         while(a!=0){
-            if(a%2==1){
+//            if(a%2==1)
+//          OR
+            if((a & 1)!=0)
                 count++;
-            }
+
 //            a/=2;
             // or
             a>>=1;
