@@ -10,6 +10,6 @@ public class test2 {
             c++;
             m/=2;
         }
-        System.out.println(m);
+        System.out.println(c);
     }
 }
