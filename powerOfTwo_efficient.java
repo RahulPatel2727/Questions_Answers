@@ -1,6 +1,6 @@
 public class powerOfTwo_efficient {
     public static void main(String[] args) {
-        int n = 4;
+        int n = -2147483648;
 //        System.out.println(new powerOfTwo_efficient().powOf2(n));
         System.out.println(n+" is equal to 2 power "+new powerOfTwo_efficient().pow(n));
     }
