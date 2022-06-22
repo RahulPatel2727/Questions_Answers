@@ -1,7 +1,7 @@
 public class missingNum {
     public static void main(String[] args) {
 //        constraint: if array size is n then the element should present form 1 to n+1, then find the missing no?
-        int []arr={1,6,3,4,5};
+        int []arr={1,2,3,5};
         System.out.println(new missingNum().missing(arr));
     }
     public int missing(int []arr){
