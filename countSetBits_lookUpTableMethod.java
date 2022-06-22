@@ -1,7 +1,7 @@
 public class countSetBits_lookUpTableMethod {
     static int []table;
     public static void main(String[] args) {
-        int n = 15274;
+        int n = 256;
         table = new int[256];table[0]=0;
         for(int i=1; i<256; i++){
             table[i]=(i&1)+table[i/2];
