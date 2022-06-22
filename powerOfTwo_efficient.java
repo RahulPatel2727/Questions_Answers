@@ -1,8 +1,8 @@
 public class powerOfTwo_efficient {
     public static void main(String[] args) {
-        int n = 1;
+        int n = 4;
 //        System.out.println(new powerOfTwo_efficient().powOf2(n));
-        System.out.println(n+" is equal to 2 power"+new powerOfTwo_efficient().pow(n));
+        System.out.println(n+" is equal to 2 power "+new powerOfTwo_efficient().pow(n));
     }
     public int pow(int n){
         if(powOf2(n)){
@@ -19,6 +19,7 @@ public class powerOfTwo_efficient {
     }
 
     public boolean powOf2(int n){
+        if(n==0) return false;
         if((n&(n-1))==0)
             return true;
         else
