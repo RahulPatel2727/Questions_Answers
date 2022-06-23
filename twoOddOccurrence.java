@@ -7,13 +7,13 @@ public class twoOddOccurrence {
     public int[] twoOddOcc(int []arr){
         int xor=0;
         for(int i=0;i<arr.length;i++){
-            xor^=arr[i];
+            xor^=arr[i]; //finding pair which are odd in occurrence
         }
         int c1=0,c2=0;
-        xor=(xor & ~(xor-1));
+        xor=(xor & ~(xor-1));//for finding last set bits from the right
         for(int i=0;i<arr.length;i++){
-            if((arr[i]&xor)!=0){
-                c1=c1^arr[i];
+            if((arr[i]&xor)!=0){// to check if arr[i] and with last set bit is 1
+                c1=c1^arr[i]; //doing xor with those no which has last set bits same as previously founded
             }
             else{
                 c2=c2^arr[i];
