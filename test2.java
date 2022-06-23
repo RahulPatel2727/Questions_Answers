@@ -1,16 +1,17 @@
+import org.w3c.dom.DOMStringList;
+
 import java.util.*;
 
 public class test2 {
     public static void main(String[] args) {
-        List<List<Integer>>list=new ArrayList<>();
-        List l=new ArrayList();
-        l.add(1);
-        l.add(3);
-        l.add(4);
-        list.add(l);
-        list.add(l);
-        list.add(l);
-
+        List <String >list = new ArrayList<>();
+        list.add("");
+        list.add("rahul");
+        list.add("patel");
+        list.add("singh");
+        list.add("patel");
+        System.out.println(list);
+        Collections.sort(list);
         System.out.println(list);
     }
 }
