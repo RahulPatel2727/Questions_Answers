@@ -3,6 +3,7 @@ class recursionN_to_1{
         int n = 23;
         print(n);
     }
+//    this is tail recursion
     public static void print(int n){
         if(n==0)
             return;
