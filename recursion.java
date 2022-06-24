@@ -7,8 +7,8 @@ public class recursion {
     public static int p2(int n){
         if(n==1)
             return 0;
-        else
-            return 1 + p2(n/2);
+        int nm=1 + p2(n/2);
+        return nm;
     }
 
     static void p1(int n){
