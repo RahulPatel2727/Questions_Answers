@@ -1,10 +1,11 @@
 public class recursion {
     public static void main(String[] args) {
-        int n=10;
+        int n=8;
 //        p1(n);
 //        System.out.println(p2(n));
         p3(n);
     }
+
 
     // this recursion find bits
     public static void p3(int n){
